@@ -1,0 +1,17 @@
+# Create a directory
+mkdir my_folder
+
+# Navigate into "my_folder"
+cd my_folder
+
+# create a file
+nano my_file.txt
+
+# create another file
+nano another_file.txt
+
+# Concatenate the content of "another_file.txt" to "my_file.txt" and display the updated content
+cat my_file.txt another_file.txt
+
+#list all files and directories in the current directory
+ls -lart
