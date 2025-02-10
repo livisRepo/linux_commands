@@ -1,0 +1,8 @@
+# Create 20 files with .txt extensions
+touch file{1..20}.txt
+
+# rename the first 5 files to .yml extension
+for i in {1..5}; do mv file$i.txt file$i.yml; done
+
+# Print the latest created top 5 files among the total no of files
+echo "$(ls | wc -l)"; ls | head -5
